@@ -212,9 +212,9 @@ ul { list-style: none; }
 /* Hero */
 .hero {
   position: relative;
-  min-height: 92vh;
+  min-height: calc(100svh - 78px);
   display: grid;
-  place-items: end stretch;
+  align-items: center;
   color: var(--cream);
   overflow: hidden;
 }
@@ -223,7 +223,7 @@ ul { list-style: none; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(20, 53, 44, 0.35) 0%, rgba(20, 53, 44, 0.55) 42%, rgba(14, 32, 27, 0.92) 100%),
+    linear-gradient(180deg, rgba(20, 53, 44, 0.28) 0%, rgba(20, 53, 44, 0.5) 48%, rgba(14, 32, 27, 0.9) 100%),
     url("../assets/img/hero-farm.jpg") center/cover no-repeat;
   transform: scale(1.08);
   animation: ken 22s ease-out forwards;
@@ -232,7 +232,7 @@ ul { list-style: none; }
 .hero-content {
   position: relative;
   z-index: 1;
-  padding: 90px 0 70px;
+  padding: 28px 0 88px;
 }
 
 .eyebrow {
@@ -243,7 +243,7 @@ ul { list-style: none; }
   text-transform: uppercase;
   font-size: 12px;
   color: var(--gold);
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .eyebrow::before,
@@ -255,10 +255,10 @@ ul { list-style: none; }
 }
 
 .hero h1 {
-  font-size: clamp(42px, 7vw, 92px);
-  line-height: 0.95;
+  font-size: clamp(36px, 5.6vw, 72px);
+  line-height: 1.02;
   font-weight: 700;
-  max-width: 14ch;
+  max-width: 16ch;
 }
 
 .hero h1 em {
@@ -268,7 +268,7 @@ ul { list-style: none; }
 }
 
 .hero-lead {
-  margin-top: 22px;
+  margin-top: 16px;
   max-width: 46ch;
   font-size: 18px;
   opacity: 0.92;
@@ -278,7 +278,7 @@ ul { list-style: none; }
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 32px;
+  margin-top: 22px;
 }
 
 .btn {
@@ -979,11 +979,12 @@ tr:last-child td { border-bottom: none; }
   .nav a::after { display: none; }
 
   .hero {
-    min-height: auto;
+    min-height: calc(100svh - 64px);
+    align-items: center;
   }
 
   .hero-content {
-    padding: 40px 0 72px;
+    padding: 24px 0 80px;
   }
 
   .hero h1 {
