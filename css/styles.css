@@ -835,9 +835,15 @@ tr:last-child td { border-bottom: none; }
   place-items: center;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
   z-index: 60;
-  font-weight: 700;
   transition: transform 0.25s ease;
   animation: pulse 2.4s ease-in-out infinite;
+}
+
+.wa svg {
+  width: 30px;
+  height: 30px;
+  display: block;
+  overflow: visible;
 }
 
 .wa:hover {
