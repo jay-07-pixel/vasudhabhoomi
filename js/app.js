@@ -53,7 +53,7 @@
   window.addEventListener("scroll", onScroll, { passive: true });
 
   const revealItems = document.querySelectorAll(
-    ".stat, .photo-stack, .card, .mini, .pack-frame, .gallery img, .section-title, .product-name, .acc-item, .contact-card, .map, .note"
+    ".stat, .photo-stack, .card, .mini, .pack-frame, .gallery img, .section-title, .product-name, .acc-item, .contact-card, .map-wrap, .note"
   );
   revealItems.forEach((el, i) => {
     el.classList.add("reveal");
