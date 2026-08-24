@@ -1188,13 +1188,13 @@ tr:last-child td { border-bottom: none; }
   }
 
   .map-wrap {
-    min-height: 280px;
+    min-height: 340px;
     border-radius: 20px;
   }
 
   .map {
-    height: 280px;
-    min-height: 280px;
+    height: 340px;
+    min-height: 340px;
   }
 
   .footer {
