@@ -1,0 +1,12 @@
+# Site files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Source PDFs and unused originals (site uses assets/img/)
+*.pdf
+WhatsApp Image *
+assets/*.jpg
+assets/*.png
+assets/*.jpeg
+!assets/img/
