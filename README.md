@@ -88,7 +88,7 @@ Or drag-and-drop the project folder onto [https://app.netlify.com/drop](https://
 **Vasudhabhoomi Seeds LLP**  
 Director: Rajanikant Ramesh Shewale  
 
-Survey No. 332, Opposite to NHAI Office, Taharabad Road, Kangar Bk, Tal. Rahuri, Dist. Ahilyanagar. Pin 413706  
+Survey No. 332, Opposite to NHAI Office, Taharabad Road, Kangar Bk., Tal. Rahuri, Dist. Ahilyanagar, Maharashtra 413706, India (19.436571, 74.569653)  
 
 Customer care: [9284655695](tel:+919284655695)  
 Email: [vasudhabhoomiseeds@gmail.com](mailto:vasudhabhoomiseeds@gmail.com)  
