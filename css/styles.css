@@ -261,6 +261,10 @@ ul { list-style: none; }
   background: rgba(20, 53, 44, 0.04);
 }
 
+.page-product .product {
+  min-height: calc(100svh - var(--header-h) - env(safe-area-inset-top) - 80px);
+}
+
 .lang-toggle {
   display: flex;
   background: rgba(255, 255, 255, 0.08);
@@ -640,6 +644,12 @@ section,
   border-radius: 18px;
   max-height: 620px;
   object-fit: cover;
+}
+
+.pack-poster img {
+  object-fit: contain;
+  max-height: 720px;
+  background: #f4ead8;
 }
 
 /* Guide */
