@@ -20,8 +20,27 @@
     setMenu(!nav.classList.contains("open"));
   });
 
+  document.querySelectorAll(".nav-drop-btn").forEach((btn) => {
+    btn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      const drop = btn.closest(".nav-drop");
+      const open = !drop.classList.contains("open");
+      document.querySelectorAll(".nav-drop").forEach((item) => {
+        const isOpen = item === drop && open;
+        item.classList.toggle("open", isOpen);
+        item.querySelector(".nav-drop-btn")?.setAttribute("aria-expanded", String(isOpen));
+      });
+    });
+  });
+
   document.querySelectorAll(".nav a").forEach((link) => {
-    link.addEventListener("click", () => setMenu(false));
+    link.addEventListener("click", () => {
+      setMenu(false);
+      document.querySelectorAll(".nav-drop").forEach((item) => {
+        item.classList.remove("open");
+        item.querySelector(".nav-drop-btn")?.setAttribute("aria-expanded", "false");
+      });
+    });
   });
 
   window.addEventListener("resize", () => {
