@@ -1215,7 +1215,13 @@ tr:last-child td { border-bottom: none; }
     border-bottom: 1px solid rgba(246, 241, 230, 0.08);
   }
 
-  .nav.open { display: flex; }
+  .nav.open {
+    display: flex;
+    max-height: calc(100dvh - var(--header-h) - env(safe-area-inset-top));
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
 
   .nav > a,
   .nav-drop-btn {
@@ -1250,15 +1256,6 @@ tr:last-child td { border-bottom: none; }
 
   .nav-drop.open .nav-drop-menu,
   .nav-drop:focus-within .nav-drop-menu {
-    display: block;
-  }
-
-  .nav-drop:hover .nav-drop-menu {
-    display: none;
-  }
-
-  .nav-drop.open:hover .nav-drop-menu,
-  .nav-drop.open .nav-drop-menu {
     display: block;
   }
 
@@ -1387,7 +1384,10 @@ tr:last-child td { border-bottom: none; }
     max-width: none;
   }
 
-  .pack-frame img { max-height: 380px; }
+  .pack-frame img,
+  .pack-poster img {
+    max-height: 280px;
+  }
 
   .gallery {
     grid-template-columns: 1fr;
@@ -1452,13 +1452,22 @@ tr:last-child td { border-bottom: none; }
   }
 
   .map-wrap {
-    min-height: 340px;
-    border-radius: 20px;
+    min-height: 0;
+    overflow: visible;
+    background: transparent;
+    border-radius: 0;
   }
 
   .map {
-    height: 340px;
-    min-height: 340px;
+    height: 240px;
+    min-height: 240px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .map-pin-card {
+    position: static;
+    margin-top: 10px;
   }
 
   .footer {
