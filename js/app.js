@@ -74,7 +74,7 @@
   window.addEventListener("scroll", onScroll, { passive: true });
 
   const revealItems = document.querySelectorAll(
-    ".stat, .photo-stack, .card, .mini, .pack-frame, .section-title, .product-name, .acc-item, .contact-card, .map-wrap, .note"
+    ".stat, .photo-stack, .card, .mini, .pack-frame, .section-title, .product-name, .contact-card, .map-wrap, .note, .video-card"
   );
   revealItems.forEach((el, i) => {
     el.classList.add("reveal");
