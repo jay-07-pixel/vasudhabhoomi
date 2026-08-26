@@ -277,6 +277,10 @@ ul { list-style: none; }
   padding: 24px 0 48px;
 }
 
+.page-guide #guide {
+  padding: 24px 0 48px;
+}
+
 .video-showcase {
   display: flex;
   flex-direction: column;
