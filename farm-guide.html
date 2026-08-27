@@ -66,21 +66,22 @@
           <button class="tab active" data-tab="climate" type="button"><span class="en">1. Climate</span><span class="mr">१. हवामान</span></button>
           <button class="tab" data-tab="soil" type="button"><span class="en">2. Soil &amp; sowing</span><span class="mr">२. जमीन व बियाणे</span></button>
           <button class="tab" data-tab="fert" type="button"><span class="en">3. Nutrients</span><span class="mr">३. खत व्यवस्थापन</span></button>
-          <button class="tab" data-tab="water" type="button"><span class="en">4. Water</span><span class="mr">४. पाणी</span></button>
-          <button class="tab" data-tab="harvest" type="button"><span class="en">5. Harvest</span><span class="mr">५. काढणी</span></button>
-          <button class="tab" data-tab="problems" type="button"><span class="en">6. Issues</span><span class="mr">६. अडचणी</span></button>
+          <button class="tab" data-tab="pest" type="button"><span class="en">4. Weed &amp; pests</span><span class="mr">४. तण, रोग व किड</span></button>
+          <button class="tab" data-tab="water" type="button"><span class="en">5. Water</span><span class="mr">५. पाणी</span></button>
+          <button class="tab" data-tab="harvest" type="button"><span class="en">6. Harvest</span><span class="mr">६. काढणी व साठवण</span></button>
+          <button class="tab" data-tab="problems" type="button"><span class="en">7. Issues</span><span class="mr">७. अडचणी</span></button>
         </div>
 
         <div id="climate" class="panel active">
           <h3 class="guide-heading serif">
             <span class="en">1) Climate &amp; temperature requirements</span>
-            <span class="mr">१) हवामान व तापमान आवश्यकता</span>
+            <span class="mr">१) हवामान व तापमान</span>
           </h3>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th><span class="en">Crop stage</span><span class="mr">पिकाचा टप्पा</span></th>
+                  <th><span class="en">Crop growth stage</span><span class="mr">पीक वाढीचा टप्पा</span></th>
                   <th><span class="en">Required climate</span><span class="mr">आवश्यक हवामान</span></th>
                   <th><span class="en">Ideal temperature</span><span class="mr">योग्य तापमान</span></th>
                   <th><span class="en">Scientific effect</span><span class="mr">शास्त्रीय परिणाम</span></th>
@@ -88,67 +89,39 @@
               </thead>
               <tbody>
                 <tr>
-                  <td data-en="Crop stage" data-mr="पिकाचा टप्पा"><span class="en">Vegetative growth (initial phase)</span><span class="mr">कायिक वाढ (सुरुवातीचा टप्पा)</span></td>
-                  <td data-en="Required climate" data-mr="आवश्यक हवामान"><span class="en">Cool with moderate humidity</span><span class="mr">थंड व मध्यम आर्द्रता</span></td>
-                  <td data-en="Ideal temperature" data-mr="योग्य तापमान">15°C to 25°C</td>
-                  <td data-en="Scientific effect" data-mr="शास्त्रीय परिणाम"><span class="en">Promotes proper leaf count and neck diameter growth.</span><span class="mr">पानांची संख्या आणि मानेचा घेर योग्य रीतीने वाढतो.</span></td>
+                  <td data-en="Crop growth stage" data-mr="पीक वाढीचा टप्पा"><span class="en">Vegetative growth (initial phase)</span><span class="mr">शाकीय वाढ (सुरुवातीचा काळ)</span></td>
+                  <td data-en="Required climate" data-mr="आवश्यक हवामान"><span class="en">Cool with moderate humidity</span><span class="mr">थंड आणि मध्यम आर्द्रता</span></td>
+                  <td data-en="Ideal temperature" data-mr="योग्य तापमान"><span class="en">15°C to 25°C</span><span class="mr">१५°सें. ते २५° सें.</span></td>
+                  <td data-en="Scientific effect" data-mr="शास्त्रीय परिणाम"><span class="en">Promotes proper leaf count and neck diameter growth.</span><span class="mr">पानांची संख्या व खोडाचा घेर व्यवस्थित वाढतो.</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Crop stage" data-mr="पिकाचा टप्पा"><span class="en">Bulb development</span><span class="mr">गड्डा विकास</span></td>
+                  <td data-en="Crop growth stage" data-mr="पीक वाढीचा टप्पा"><span class="en">Bulb development</span><span class="mr">गड्डा पोसण्याचा काळ</span></td>
                   <td data-en="Required climate" data-mr="आवश्यक हवामान"><span class="en">Hot, dry, with high sunlight</span><span class="mr">उष्ण, कोरडे व जास्त सूर्यप्रकाश</span></td>
-                  <td data-en="Ideal temperature" data-mr="योग्य तापमान">20°C to 30°C</td>
-                  <td data-en="Scientific effect" data-mr="शास्त्रीय परिणाम"><span class="en">Photosynthates (food nutrients) are stored directly into the bulb.</span><span class="mr">प्रकाश संश्लेषणातील अन्नद्रव्ये थेट गड्ड्यात साठवली जातात.</span></td>
+                  <td data-en="Ideal temperature" data-mr="योग्य तापमान"><span class="en">20°C to 30°C</span><span class="mr">२०° सें. ते ३०° सें.</span></td>
+                  <td data-en="Scientific effect" data-mr="शास्त्रीय परिणाम"><span class="en">Photosynthates (food nutrients) are stored directly into the bulb.</span><span class="mr">प्रकाश संश्लेषणातून अन्नद्रव्ये गड्ड्यात साठवली जातात.</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p class="note">
             <span class="en"><strong>Note:</strong> If the temperature exceeds 35°C during bulb development, the onion matures prematurely, resulting in smaller bulb size or thick necks.</span>
-            <span class="mr"><strong>टीप:</strong> गड्डा विकासाच्या काळात तापमान ३५°से. पेक्षा जास्त झाल्यास कांदा मुदतपूर्व परिपक्व होतो. त्यामुळे गड्ड्याचा आकार लहान राहतो किंवा मान जाड होते.</span>
+            <span class="mr"><strong>टीप:</strong> गड्डा पोसताना तापमान ३५°सें. पेक्षा जास्त झाल्यास कांदा मुदतपूर्व परिपक्व होऊन गड्ड्याचा आकार लहान राहतो किंवा मान जाड होते.</span>
           </p>
         </div>
 
         <div id="soil" class="panel">
           <h3 class="guide-heading serif">
-            <span class="en">2) Soil, seed rate &amp; transplanting specifications</span>
-            <span class="mr">२) जमीन, बियाणे प्रमाण व पुनर्लागवड</span>
+            <span class="en">2) Seed, soil, tillage, nursery &amp; transplanting</span>
+            <span class="mr">२) बियाणे, जमीन, मशागत, रोपवाटिका, पुनर्लागवड</span>
           </h3>
-          <div class="guide-cards">
-            <article class="mini">
-              <h4><span class="en">Soil</span><span class="mr">जमीन</span></h4>
-              <p>
-                <span class="en">Medium to heavy, rich in organic carbon, with excellent drainage.</span>
-                <span class="mr">मध्यम ते भारी, सेंद्रिय कर्बाने समृद्ध व उत्तम निचऱ्याची जमीन.</span>
-              </p>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Seed rate</span><span class="mr">बियाण्याचे प्रमाण</span></h4>
-              <p>
-                <span class="en">3 to 4 kg per acre (7.5 to 10 kg per hectare).</span>
-                <span class="mr">३ ते ४ किलो प्रति एकर (हेक्टरी ७.५ ते १० किलो).</span>
-              </p>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Nursery management</span><span class="mr">रोपवाटिका व्यवस्थापन</span></h4>
-              <p>
-                <span class="en">1 to 1.2 kg seeds require 3 gunthas (300 sq. m.) of raised beds.</span>
-                <span class="mr">१ ते १.२ किलो बियाण्यासाठी ३ गुंठे (३०० चौ.मी.) गादीवाफे लागतात.</span>
-              </p>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Transplanting age</span><span class="mr">पुनर्लागवडीचे वय</span></h4>
-              <p>
-                <span class="en">40 to 45 days old seedlings.</span>
-                <span class="mr">४० ते ४५ दिवसांची रोपे.</span>
-              </p>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Spacing</span><span class="mr">लागवडीचे अंतर</span></h4>
-              <p>
-                <span class="en">15 cm (between rows) × 10 cm (between plants).</span>
-                <span class="mr">१५ सें.मी. (ओळीत) × १० सें.मी. (रोपांत).</span>
-              </p>
-            </article>
+          <div class="guide-prose">
+            <p><span class="mr"><strong>बियाण्याचे प्रमाण:</strong> ३ ते ४ किलो प्रति एकर (हेक्टरी ७.५ ते १० किलो).</span></p>
+            <p><span class="mr"><strong>जमीनीची निवड:</strong> मध्यम ते भारी, सेंद्रिय कर्ब चांगला असलेली व सुयोग्य निचऱ्याची.</span></p>
+            <p><span class="mr"><strong>पूर्व मशागत:</strong> एक खोलगट नांगरट देऊन गुळव्याच्या उभ्या आडव्या दोन पाळ्या द्याव्यात.</span></p>
+            <p><span class="mr"><strong>रोपवाटिका बियाण्याचे प्रमाण:</strong> १ ते १.२ किलो बियाण्यासाठी ३ गुंठे (३०० चौ.मी.)</span></p>
+            <p><span class="mr"><strong>रोपवाटिका तयारी:</strong> नर्सरी वाफा खोल नांगरून, ढेकळे फोडून, शेवटच्या नांगरणीवेळी ५-६ गुंठे क्षेत्रासाठी ५०० किलो चांगले कुजलेले शेणखत आणि १.२५ किलो ट्रायकोडर्मा मिसळावे. गादी वाफा १५ सें.मी. उंचीचे आणि १.२ मीटर रुंदीचे वाफा ड्रिप किंवा स्प्रिंकलर पाणीसह तयार करावेत, किंवा पाणी उपलब्ध नसल्यास १.०-१.२ मीटर रुंदीचे व ५-६ मीटर लांबीचे वाफा तयार करावेत.</span></p>
+            <p><span class="mr"><strong>पुणर्लागवड:</strong> ४० ते ४५ दिवस.</span></p>
+            <p><span class="mr"><strong>लागवडीचे अंतर:</strong> १५ सें.मी. (ओळीत) × १० सें.मी. (रोपांत).</span></p>
           </div>
         </div>
 
@@ -158,172 +131,158 @@
             <span class="mr">३) अन्नद्रव्य व खत व्यवस्थापन</span>
           </h3>
           <p class="section-lead" style="margin-bottom:18px">
-            <span class="en">The recommended chemical fertilizer dosage for onion crops is 100:50:50 kg NPK per hectare (or 40:20:20 kg NPK per acre).</span>
-            <span class="mr">कांदा पिकासाठी शिफारस केलेली रासायनिक खतमात्रा १००:५०:५० किलो नत्र : स्फुरद : पालाश प्रति हेक्टर (किंवा ४०:२०:२० किलो प्रति एकर).</span>
+            <span class="en">Recommended chemical fertilizer dose is 100:50:50 kg NPK per hectare (40:20:20 kg per acre).</span>
+            <span class="mr">कांदा पिकासाठी शिफारस केलेली रासायनिक खतमात्रा १००:५०:५० किलो नत्र : स्फुरद : पालाश प्रति हेक्टर (अर्थात ४०:२०:२० किलो नत्र : स्फुरद : पालाश प्रति एकर) आहे.</span>
           </p>
-          <div class="guide-cards" style="margin-bottom:18px">
-            <article class="mini">
-              <h4><span class="en">Organic &amp; bio-fertilizers</span><span class="mr">सेंद्रिय व जिवाणू खते</span></h4>
-              <ul>
-                <li><span class="en">FYM / compost: Mix 25 to 30 tonnes/ha (10 to 12 tonnes/acre) into the soil 15 days prior to transplanting.</span><span class="mr">शेणखत / कंपोस्ट: पुनर्लागवडीच्या १५ दिवस आधी २५ ते ३० टन/हेक्टर (१० ते १२ टन/एकर) मातीत मिसळावे.</span></li>
-                <li><span class="en">Bio-inoculants: Treat seeds with Azospirillum and Phosphate Solubilizing Bacteria (PSB) at 25 g per kg of seed.</span><span class="mr">जिवाणू संवर्धक: अझोस्पिरिलम आणि स्फुरद विरघळविणारे जिवाणू (PSB) २५ ग्रॅम प्रति किलो बियाण्यास बीजप्रक्रिया करावी.</span></li>
-              </ul>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Micronutrients &amp; secondary nutrients</span><span class="mr">सूक्ष्म व दुय्यम अन्नद्रव्ये</span></h4>
-              <ul>
-                <li><span class="en">Sulphur: Apply 45 kg/ha (18 to 20 kg/acre) of sulphur 15 days before transplanting. Sulphur enhances pungent flavor and improves storage life.</span><span class="mr">गंधक: पुनर्लागवडीच्या १५ दिवस आधी हेक्टरी ४५ किलो (एकरी १८ ते २० किलो) द्यावे. गंधकामुळे तिखटपणा वाढतो आणि साठवण क्षमता सुधारते.</span></li>
-                <li><span class="en">Silicon: Spray 2 ml per liter of water at 20, 40, and 60 days post-transplanting to improve yield, quality, and pest / disease resistance.</span><span class="mr">सिलिकॉन: पुनर्लागवडीनंतर २०, ४० व ६० दिवसांनी २ मि.ली. प्रति लिटर पाण्यात फवारणी करावी. यामुळे उत्पादन, गुणवत्ता आणि कीड / रोग प्रतिकारशक्ती सुधारते.</span></li>
-                <li><span class="en">Micronutrients: Apply Micronutrient Grade-II (foliar spray) at 30 to 40 mL per 10 liters of water at 35 and 45 days post-transplanting.</span><span class="mr">सूक्ष्म अन्नद्रव्ये: मायक्रोन्यूट्रिएंट ग्रेड-२ (पानांवरील फवारणी) पुनर्लागवडीनंतर ३५ व ४५ दिवसांनी ३० ते ४० मि.ली. प्रति १० लिटर पाण्यात द्यावे.</span></li>
-              </ul>
-            </article>
+          <h4 class="guide-sub"><span class="en">A) Organic &amp; bio-fertilizers</span><span class="mr">अ) सेंद्रिय व जिवाणू खते</span></h4>
+          <div class="guide-prose">
+            <p><span class="mr">शेणखत/ कंपोस्ट: २५ ते ३० टन/ हेक्टर (१० ते १२ टन/ एकर) लागवडीपूर्वी १५ दिवस आधी मातीत मिसळावे.</span></p>
+            <p><span class="mr">जिवाणू संवर्धक: अझोस्पिरिलम आणि स्फुरद विरघळवणारे जिवाणू २५ ग्रॅम प्रति किलो या प्रमाणात बियाण्यास बीजप्रक्रिया करावी.</span></p>
           </div>
+          <h4 class="guide-sub"><span class="en">B) Chemical fertilizer dose</span><span class="mr">ब) रासायनिक खतमात्रा</span></h4>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
                   <th><span class="en">Timing</span><span class="mr">वेळ</span></th>
-                  <th><span class="en">Fertilizer option (per acre)</span><span class="mr">खत प्रयोग (प्रति एकर)</span></th>
-                  <th><span class="en">Key nutrient provided</span><span class="mr">मुख्य अन्नद्रव्य</span></th>
+                  <th><span class="en">Fertilizer option (per acre)</span><span class="mr">रासायनिक खत पर्याय (प्रति एकरी)</span></th>
+                  <th><span class="en">Key nutrient</span><span class="mr">मुख्य घटक</span></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td data-en="Timing" data-mr="वेळ"><span class="en">At transplanting</span><span class="mr">पुनर्लागवडीच्या वेळी</span></td>
-                  <td data-en="Fertilizer option (per acre)" data-mr="खत प्रयोग (प्रति एकर)"><span class="en">2 bags urea + 2.5 bags single super phosphate (SSP) + 0.5 bag muriate of potash (MOP)</span><span class="mr">२ बॅग युरिया + २.५ बॅग सिंगल सुपर फॉस्फेट (SSP) + ०.५ बॅग म्युरेट ऑफ पोटॅश (MOP)</span></td>
-                  <td data-en="Key nutrient provided" data-mr="मुख्य अन्नद्रव्य"><span class="en">Nitrogen (50%), full phosphorus &amp; potash</span><span class="mr">नत्र (५०%), संपूर्ण स्फुरद व पालाश</span></td>
+                  <td><span class="en">At transplanting</span><span class="mr">लागवडीच्यावेळी</span></td>
+                  <td><span class="mr">१ बॅग युरिया + २.५ बॅग सिंगल सुपर फॉस्फेट + ०.५ बॅग म्युरेट ऑफ पोटॅश</span></td>
+                  <td><span class="mr">नत्र (५०%), सर्व स्फुरद व पालाश</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Timing" data-mr="वेळ"><span class="en">At 30 days</span><span class="mr">३० दिवसांनी</span></td>
-                  <td data-en="Fertilizer option (per acre)" data-mr="खत प्रयोग (प्रति एकर)"><span class="en">1 bag urea</span><span class="mr">१ बॅग युरिया</span></td>
-                  <td data-en="Key nutrient provided" data-mr="मुख्य अन्नद्रव्य"><span class="en">Nitrogen (25%)</span><span class="mr">नत्र (२५%)</span></td>
+                  <td><span class="en">At 30 days</span><span class="mr">३० दिवसांनी</span></td>
+                  <td><span class="mr">०.५ बॅग युरिया</span></td>
+                  <td><span class="mr">नत्र (२५%)</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Timing" data-mr="वेळ"><span class="en">At 45 days</span><span class="mr">४५ दिवसांनी</span></td>
-                  <td data-en="Fertilizer option (per acre)" data-mr="खत प्रयोग (प्रति एकर)"><span class="en">1 bag urea</span><span class="mr">१ बॅग युरिया</span></td>
-                  <td data-en="Key nutrient provided" data-mr="मुख्य अन्नद्रव्य"><span class="en">Nitrogen (25%)</span><span class="mr">नत्र (२५%)</span></td>
+                  <td><span class="en">At 45 days</span><span class="mr">४५ दिवसांनी</span></td>
+                  <td><span class="mr">०.५ बॅग युरिया</span></td>
+                  <td><span class="mr">नत्र (२५%)</span></td>
                 </tr>
               </tbody>
             </table>
+          </div>
+          <h4 class="guide-sub"><span class="en">C) Micronutrients (very important)</span><span class="mr">क) सूक्ष्म व दुय्यम अन्नद्रव्ये (अत्यंत महत्त्वाचे)</span></h4>
+          <div class="guide-prose">
+            <p><span class="mr"><strong>गंधक:</strong> हेक्टरी ४५ किलो (एकरी १८ ते २० किलो) गंधक लागवडीच्या १५ दिवस आधी मातीत मिसळावे. (गंधकामुळे कांद्याचा तिखटपणा आणि साठवण क्षमता वाढते).</span></p>
+            <p><span class="mr"><strong>सिलिकॉन:</strong> कांदा पिकाच्या अधिक व गुणवत्ता युक्त उत्पादनासाठी व कीड रोगाचाव प्रादुर्भाव टाळण्याकरिता पुनर्लागवडीनंतर २०, ४० व ६० दिवसांनी २ मि.ली. प्रति लिटर पाण्यातून फवारणी करावी.</span></p>
+            <p><span class="mr"><strong>सूक्ष्म अन्नद्रव्ये:</strong> लागवडीनंतर ३५ व ४५ दिवसांनी मायक्रोन्युट्रिएंट ग्रेड-२ (फवारणीसाठी) ३० ते ४० मि.ली. प्रति १० लिटर पाण्यातून द्यावे.</span></p>
+          </div>
+        </div>
+
+        <div id="pest" class="panel">
+          <h3 class="guide-heading serif">
+            <span class="en">4) Weed, disease &amp; pest management</span>
+            <span class="mr">४) तण, रोग व किड व्यवस्थापन</span>
+          </h3>
+          <div class="guide-prose">
+            <p><span class="mr"><strong>तण व्यवस्थापन:</strong> लागवडी अगोदर बासालीन (फ्लुक्लोरालिन) २.५ मिली प्रती लिटर पाण्यातून जमिनीवर फवारणी करावी लागवडीनंतर २१ ते २५ दिवसांनी ऑक्झिप्ल्युरोफेन (गोल) २३.५% ईसी १० मिली प्रति १० लिटर किंवा टरगा सुपर १५ मिली व ऑक्झिप्ल्युरोफेन (गोल) १० मिली प्रती १० लिटर पाण्यातुन फवारणी करावी वरील तणनाशकाची फवारणी केल्यास ४०-५० दिवसापर्यंत शेत तण विरहीत राहते व नंतर एक खुरपणी द्यावी म्हणजे तणाची वाढ नियंत्रित राहुन उत्पादनात वाढ होते.</span></p>
+            <p><span class="mr"><strong>रोग व किड व्यवस्थापन (तुडतुडे, मावा, थ्रीप्स, जांभळा करपा आणि तपकिरी करपा):</strong> फुलकिडे पिले आणि प्रौढ पाने खरवडतात आणि त्यातून बाहेर येणारा रस शोषतात. त्यामुळे पानांवर पांढरे चट्टे पडतात यालाच टाक्या असे संबोधतात. त्याच्या नियंत्रणासाठी टोलफेनपायरॅड १५% ई.सी.२ मि.ली. किंवा डेल्टामेथ्रीन ११% ई.सी. ३ मि.ली. किंवा लॅम्बडा सायहॅलोथ्रीन ५% ई.सी. १० मि.ली. प्रति १० लिटर पाण्यातून साध्या हातपंपाने या किटकनाशकांच्या आलटुन पालटून फवारण्या कराव्यात. अधून मधून ५% निंबोळी अर्काची फवारणी करावी. फवारणी करतांना चिकट द्रव्याचा (०.१%) वापर जरूर करावा. करपा रोग डायफेनकोनॅझोल २५% ई.सी.१० मि.ली. १० लिटर पाण्यात किंवा टेब्युकोनॅझोल २५.९% ई.सी. १० मि.ली. प्रती १० लिटर पाण्यात किंवा अॅझोक्सिस्ट्रोबीन १८.२% + डायफ्फ्रेनोकोनॅझोल ११.४% एससी १० मि.ली. प्रती १० लिटर पाण्यात किंवा अॅझोक्सिस्ट्रोबीन ११% + टेब्युकोनॅझोल १८.३% १० मि.ली. प्रती १० लिटर पाण्यात किंवा किटाझिन ४८% इ.सी. १० मि.ली. प्रती १० लिटर पाण्यातून १० दिवसांच्या अंतराने आलटून-पालटून फवारावेत. (किटकनाशक व बुरशीनाशकाचे प्रमाण १० लि. पाण्यासाठी दिले आहे.)</span></p>
           </div>
         </div>
 
         <div id="water" class="panel">
           <h3 class="guide-heading serif">
-            <span class="en">4) Irrigation management</span>
-            <span class="mr">४) पाणी व्यवस्थापन</span>
+            <span class="en">5) Irrigation management</span>
+            <span class="mr">५) पाणी व्यवस्थापन</span>
           </h3>
           <p class="section-lead" style="margin-bottom:18px">
-            <span class="en">Water management must be adjusted based on soil type, climate, and crop growth stages.</span>
-            <span class="mr">जमिनीचा प्रकार, हवामान आणि पिकाच्या वाढीच्या टप्प्यानुसार पाणी व्यवस्थापन करावे.</span>
+            <span class="en">Water management should be adjusted based on soil type, climate and growth stage.</span>
+            <span class="mr">जमिनीचा प्रकार, हवामान आणि वाढीच्या टप्प्यानुसार पाणी व्यवस्थापन करणे आवश्यक असते.</span>
           </p>
           <div class="table-wrap">
             <table>
               <thead>
                 <tr>
-                  <th><span class="en">Crop growth stage</span><span class="mr">पिकाचा वाढीचा टप्पा</span></th>
-                  <th><span class="en">Irrigation timing / schedule</span><span class="mr">पाणी देण्याची वेळ / वेळापत्रक</span></th>
+                  <th><span class="en">Growth stage</span><span class="mr">वाढीचा टप्पा</span></th>
+                  <th><span class="en">Irrigation timing</span><span class="mr">पाणी देण्याची वेळ / कालावधी</span></th>
+                  <th><span class="en">Interval</span><span class="mr">सिंचनाचे अंतर</span></th>
+                  <th><span class="en">Important notes</span><span class="mr">महत्त्वाच्या सूचना</span></th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td data-en="Crop growth stage" data-mr="पिकाचा वाढीचा टप्पा"><span class="en">At transplanting</span><span class="mr">पुनर्लागवडीच्या वेळी</span></td>
-                  <td data-en="Irrigation timing / schedule" data-mr="पाणी देण्याची वेळ / वेळापत्रक"><span class="en">1st irrigation (light watering)</span><span class="mr">१ ले पाणी (हलके पाणी)</span></td>
+                  <td><span class="en">At transplanting</span><span class="mr">पुनर्लागवडीच्या वेळी</span></td>
+                  <td><span class="mr">१ ले पाणी (हलके पाणी)</span></td>
+                  <td><span class="mr">लागवडीच्या दिवशी</span></td>
+                  <td><span class="mr">रोपांची मुळे जमिनीत धरण्यासाठी लगेच पाणी द्यावे.</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Crop growth stage" data-mr="पिकाचा वाढीचा टप्पा"><span class="en">Post-transplanting</span><span class="mr">पुनर्लागवडीनंतर</span></td>
-                  <td data-en="Irrigation timing / schedule" data-mr="पाणी देण्याची वेळ / वेळापत्रक"><span class="en">2nd irrigation (Ambawani / establishment watering)</span><span class="mr">२ रे पाणी (आंबवणी / स्थिरावण्यासाठी)</span></td>
+                  <td><span class="en">After transplanting</span><span class="mr">लागवडीनंतरचा काळ</span></td>
+                  <td><span class="mr">२ रे पाणी (आंबवणी)</span></td>
+                  <td><span class="mr">लागवडीनंतर ३ ते ४ दिवसांनी</span></td>
+                  <td><span class="mr">रोपे सेट होण्यासाठी हलके पाणी देणे आवश्यक असते.</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Crop growth stage" data-mr="पिकाचा वाढीचा टप्पा"><span class="en">Vegetative growth phase</span><span class="mr">कायिक वाढीचा टप्पा</span></td>
-                  <td data-en="Irrigation timing / schedule" data-mr="पाणी देण्याची वेळ / वेळापत्रक"><span class="en">Up to 30 to 35 days post-transplanting</span><span class="mr">पुनर्लागवडीनंतर ३० ते ३५ दिवसांपर्यंत</span></td>
+                  <td><span class="en">Vegetative growth</span><span class="mr">शाकीय वाढीचा काळ</span></td>
+                  <td><span class="mr">लागवडीपासून ३० ते ३५ दिवसांपर्यंत</span></td>
+                  <td><span class="mr">दर ७ ते ८ दिवसांनी</span></td>
+                  <td><span class="mr">या काळात जमिनीतील ओलावा टिकून राहिल्याने पानांची व रोपांची भक्कम वाढ होते.</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Crop growth stage" data-mr="पिकाचा वाढीचा टप्पा"><span class="en">Bulb bulking phase</span><span class="mr">गड्डा फुगण्याचा टप्पा</span></td>
-                  <td data-en="Irrigation timing / schedule" data-mr="पाणी देण्याची वेळ / वेळापत्रक"><span class="en">From 40 to 80/90 days post-transplanting</span><span class="mr">पुनर्लागवडीनंतर ४० ते ८०/९० दिवसांपर्यंत</span></td>
+                  <td><span class="en">Bulb bulking</span><span class="mr">कांदा फुगण्याचा काळ (मान व गड्डा बनणे)</span></td>
+                  <td><span class="mr">लागवडीनंतर ४० ते ८०/९० दिवसांपर्यंत</span></td>
+                  <td><span class="mr">दर १० ते १२ दिवसांनी</span></td>
+                  <td><span class="mr">हा कांदा पोसण्याचा मुख्य काळ आहे. या काळात ताण बसू देऊ नये.</span></td>
                 </tr>
                 <tr>
-                  <td data-en="Crop growth stage" data-mr="पिकाचा वाढीचा टप्पा"><span class="en">Pre-harvest phase</span><span class="mr">काढणीपूर्व टप्पा</span></td>
-                  <td data-en="Irrigation timing / schedule" data-mr="पाणी देण्याची वेळ / वेळापत्रक"><span class="en">90 days post-transplanting until harvest</span><span class="mr">पुनर्लागवडीनंतर ९० दिवसांपासून काढणीपर्यंत</span></td>
+                  <td><span class="en">Pre-harvest</span><span class="mr">काढणीपूर्व काळ</span></td>
+                  <td><span class="mr">९० दिवसांनंतर ते काढणीपर्यंत</span></td>
+                  <td><span class="mr">दर १२ ते १५ दिवसांनी</span></td>
+                  <td><span class="mr">कांद्याची मान पडून कांदा पक्व होण्याच्या काळात पाण्याचे प्रमाण कमी करावे.</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p class="note">
-            <span class="en"><strong>Note:</strong> Stop irrigation completely 15 to 20 days prior to harvesting.</span>
-            <span class="mr"><strong>टीप:</strong> काढणीपूर्वी १५ ते २० दिवस आधी पाणी पूर्णपणे बंद करावे.</span>
+            <span class="en"><strong>Note:</strong> Apply light irrigation; avoid waterlogging. Drip or sprinkler saves 30–40% water. Stop irrigation 15–20 days before harvest.</span>
+            <span class="mr"><strong>टीप:</strong> पाणी नेहमी हलके द्यावे; शेतात पाणी साचून राहू देऊ नये, अन्यथा मूळकूज किंवा मानकूज रोगाचा प्रादुर्भाव होतो. ठिबक किंवा तुषार (Sprikler) सिंचनाचा वापर केल्यास पाण्याची ३० ते ४०% बचत होते आणि पिकाची वाढ एकसारखी होते. काढणीपूर्वी १५ ते २० दिवस आधी पाणी पूर्णपणे बंद करावे.</span>
           </p>
         </div>
 
         <div id="harvest" class="panel">
           <h3 class="guide-heading serif">
-            <span class="en">5) Harvesting &amp; storage</span>
-            <span class="mr">५) काढणी व साठवण</span>
+            <span class="en">6) Harvesting &amp; storage</span>
+            <span class="mr">६) काढणी व साठवण</span>
           </h3>
-          <div class="guide-cards">
-            <article class="mini">
-              <h4><span class="en">Harvesting time</span><span class="mr">काढणीची वेळ</span></h4>
-              <p>
-                <span class="en">Harvest 120 to 130 days post-transplanting (when 50% of the onion tops / necks fall over).</span>
-                <span class="mr">पुनर्लागवडीनंतर १२० ते १३० दिवसांनी काढणी करावी (५०% कांद्याची मान / शेंडे मोडल्यावर).</span>
-              </p>
-            </article>
-            <article class="mini">
-              <h4><span class="en">Storage protocol</span><span class="mr">साठवण पद्धत</span></h4>
-              <p>
-                <span class="en">After harvest, dry the bulbs in the field covered with their leaves for 3 to 4 days, followed by 10 to 12 days of shade curing before moving them to storage.</span>
-                <span class="mr">काढणीनंतर कांदे ३ ते ४ दिवस पाला झाकून शेतात सुकवावेत. त्यानंतर १० ते १२ दिवस सावलीत वाळवून मगच साठवणुकीत ठेवावेत.</span>
-              </p>
-            </article>
+          <div class="guide-prose">
+            <p><span class="mr"><strong>काढणीची वेळ:</strong> पुनर्लागवडीनंतर १२० ते १३० दिवसांनी (५०% कांद्याची मान मोडल्यावर) काढणी करावी. कांदा पक्व झाला म्हणजे नवीन पाने येण्याचे थांबते, पातीतील अन्नरस कांद्यात उतरून कांदा वजनदार होऊ लागतो, कांद्याची पात पिवळसर होते, व पातीचा जाडसर भाग मऊ पडून पात कोलमडते यालाच माना मोडणे म्हणतात. कांद्याच्या बुडाशी घट्ट असलेली मुळे सुकून जमिनीची पकड सैल पडते, ३०-४० टक्के माना पडल्या म्हणजे कांदा काढावा. शेतात कांदा सुकविल्यानंतर ३-४ सें. मी. मानेचा भाग पिळून पात कापावी म्हणजे कांद्याला साठवणीत मोड येत नाही.</span></p>
+            <p><span class="mr"><strong>साठवणुक:</strong> काढणीनंतर कांदा ३ ते ४ दिवस पाला झाकून शेतात व नंतर १० ते १२ दिवस सावलीत चांगला सुकवून मगच साठवणुकीत ठेवावा.</span></p>
           </div>
         </div>
 
         <div id="problems" class="panel">
           <h3 class="guide-heading serif">
-            <span class="en">Scientific reasons for premature flowering (bolting / stalking)</span>
-            <span class="mr">मुदतपूर्व फुलोरा / डेंगळे येण्याची शास्त्रीय कारणे</span>
+            <span class="en">7) Issues (bolting &amp; yellowing)</span>
+            <span class="mr">७) अडचणी (डेंगळे येणे व पाने पिवळी पडणे)</span>
           </h3>
-          <div class="acc">
-            <article class="acc-item open">
-              <button class="acc-btn" type="button">
-                <span class="en">Bolting / stalking (premature seed stalks)</span>
-                <span class="mr">डेंगळे / बी-दांडा येण्याची शास्त्रीय कारणे</span>
-                <span class="plus">+</span>
-              </button>
-              <div class="acc-body">
-                <p>
-                  <span class="en">Premature seed stalk emergence (bolting) is an untimely shift from vegetative growth to the reproductive phase. Primary scientific reasons include:</span>
-                  <span class="mr">मुदतपूर्व बी-दांडा (डेंगळे) येणे म्हणजे कायिक वाढीतून प्रजनन टप्प्याकडे होणारे असमयी संक्रमण. मुख्य शास्त्रीय कारणे:</span>
-                </p>
-                <div class="reasons">
-                  <p><span class="en"><strong>Sudden drop in temperature:</strong> Prolonged exposure to temperatures below 10°C to 15°C during early stages triggers hormonal changes, pushing the plant prematurely into seed production.</span><span class="mr"><strong>तापमानातील अचानक घट:</strong> सुरुवातीच्या टप्प्यात दीर्घकाळ तापमान १०°से. ते १५°से. पेक्षा कमी राहिल्यास संप्रेरक बदल होतात आणि वनस्पती मुदतपूर्व बी निर्मितीकडे जाते.</span></p>
-                  <p><span class="en"><strong>Over-aged seedlings:</strong> Transplanting seedlings older than 45–50 days or with a stem thickness greater than 0.8 cm (8 mm) increases bolting rates up to 80% due to physiological signals.</span><span class="mr"><strong>अतिवयाच्या रोपांची लागवड:</strong> ४५–५० दिवसांपेक्षा जास्त वयाची किंवा ०.८ सें.मी. (८ मिमी) पेक्षा जाड खोड असलेली रोपे लावल्यास शारीरिक संकेतांमुळे डेंगळे येण्याचे प्रमाण ८०% पर्यंत वाढते.</span></p>
-                  <p><span class="en"><strong>Imbalanced nitrogen management:</strong> Excessive early nitrogen followed by a sudden deficit during the bulb formation stage, or moisture stress, forces the plant into survival / bolting mode.</span><span class="mr"><strong>असंतुलित नत्र व्यवस्थापन:</strong> सुरुवातीला नत्राचा अतिवापर आणि नंतर गड्डा तयार होण्याच्या टप्प्यात नत्राची अचानक कमतरता किंवा ओलावा ताण बसल्यास वनस्पती जगण्याच्या / बोल्टिंग स्थितीत जाते.</span></p>
-                  <p><span class="en"><strong>Off-season planting:</strong> Sowing late Kharif / Rabi varieties outside their recommended window triggers bolting due to shifting photoperiods (day length).</span><span class="mr"><strong>हंगामाव्यतिरिक्त लागवड:</strong> उशिरा खरीप / रब्बी वाण शिफारस केलेल्या कालावधीबाहेर लावल्यास दिवसाच्या लांबीतील (फोटोपीरियड) बदलामुळे डेंगळे येतात.</span></p>
-                </div>
-              </div>
-            </article>
-            <article class="acc-item">
-              <button class="acc-btn" type="button">
-                <span class="en">Leaf discoloration and yellowing</span>
-                <span class="mr">पानांचा रंग बदलणे व पिवळेपणा</span>
-                <span class="plus">+</span>
-              </button>
-              <div class="acc-body">
-                <p>
-                  <span class="en">Yellowing or blackening of leaves is generally unrelated to bolting and stems from nutrient deficiencies or biological / abiotic stress:</span>
-                  <span class="mr">पाने पिवळी किंवा काळी पडणे हे सहसा डेंगळ्याशी संबंधित नसून अन्नद्रव्यांची कमतरता किंवा जैविक / अजैविक ताणामुळे होते:</span>
-                </p>
-                <div class="reasons">
-                  <p><span class="en"><strong>Nitrogen deficiency:</strong> Older (lower) leaves turn yellow first, slowing overall plant growth.</span><span class="mr"><strong>नत्र कमतरता:</strong> जुनी (खालची) पाने आधी पिवळी पडतात आणि संपूर्ण झाडाची वाढ मंदावते.</span></p>
-                  <p><span class="en"><strong>Sulphur deficiency:</strong> Newer (upper) leaves turn yellow due to sulphur’s immobility within the plant tissue.</span><span class="mr"><strong>गंधक कमतरता:</strong> नवीन (वरची) पाने पिवळी पडतात, कारण गंधक वनस्पतीच्या ऊतींमध्ये फिरत नाही.</span></p>
-                  <p><span class="en"><strong>Potassium deficiency:</strong> Leaf tips burn, turn brown, and dry up.</span><span class="mr"><strong>पालाश कमतरता:</strong> पानांची टोके जळतात, तपकिरी होतात आणि सुकतात.</span></p>
-                  <p><span class="en"><strong>Water or salinity stress:</strong> High soil salinity or root hypoxia (waterlogging) causes leaf tip drying.</span><span class="mr"><strong>पाण्याचा किंवा क्षारांचा ताण:</strong> जमिनीची क्षारता जास्त असल्यास किंवा मुळांना प्राणवायू कमी पडल्यास (दलदल) पानांची टोके सुकतात.</span></p>
-                  <p><span class="en"><strong>Fungal blight (purple blotch / Stemphylium):</strong> Fungal infection causes white / grey spots on leaves, which gradually turn blackish / grey due to Alternaria fungus before drying out completely.</span><span class="mr"><strong>बुरशीजन्य करपा (पर्पल ब्लॉच / स्टेम्फिलियम):</strong> बुरशीच्या प्रादुर्भावामुळे पानांवर पांढरे / करडे ठिपके पडतात; नंतर अल्टरनेरिया बुरशीमुळे पाने काळसर / करडी पडून पूर्णपणे सुकतात.</span></p>
-                </div>
-              </div>
-            </article>
+          <h4 class="guide-sub"><span class="en">A) Scientific reasons for bolting</span><span class="mr">अ) कांद्यामध्ये डेंगळे येण्याची शास्त्रीय कारणे</span></h4>
+          <div class="guide-prose">
+            <p><span class="mr">कांद्यामध्ये बियांचे डेंगळे येणे ही वनस्पतीची प्रजनन टप्प्यातील असमयी वाढ असते. याची मुख्य शास्त्रीय कारणे खालील प्रामाणे;</span></p>
+            <p><span class="mr"><strong>तापमानातील अचानक घट:</strong> रोपांच्या सुरुवातीच्या काळात प्रदीर्घ काळ तापमान १०° सें. ते १५° सें. पेक्षा कमी राहिल्यास संप्रेरकांच्या बदलामुळे पीक शाकीय वाढ सोडून थेट बी निर्मितीकडे (प्रजननाकडे) वळते.</span></p>
+            <p><span class="mr"><strong>अतिवयाच्या रोपांची लागवड:</strong> ४५-५० दिवसांपेक्षा जास्त वयाची किंवा ०.८ सें.मी. (८ मिमी) पेक्षा जास्त जाड खोड असलेली रोपे वापरल्यास त्यातील 'सिट्युवेशनल सिग्नल्स'मुळे डेंगळे येण्याचे प्रमाण ८०% पर्यंत वाढते.</span></p>
+            <p><span class="mr"><strong>असंतुलित नत्र व्यवस्थापन:</strong> सुरुवातीला नत्राचा अतिवापर आणि नंतर गड्डा फुगण्याच्या काळात नत्राची अचानक कमतरता किंवा पाण्याचा ताण बसल्यास वनस्पती ताणात येऊन डांगर फेकते.</span></p>
+            <p><span class="mr"><strong>हंगामाव्यतिरिक्त लागवड:</strong> रांगडा/ रब्बीचे वाण योग्य वेळेपेक्षा उशिरा किंवा चुकीच्या हंगामात लावल्यास फोटोपिरियड (प्रकाश कालावधी) बदलावामुळे बोल्टिंग होते.</span></p>
           </div>
+          <h4 class="guide-sub"><span class="en">B) Leaf discoloration &amp; yellowing</span><span class="mr">ब) पानांचा रंग बदलणे व पिवळेपणा येण्याची शास्त्रीय कारणे</span></h4>
+          <div class="guide-prose">
+            <p><span class="mr">पाने पिवळी किंवा काळी पडणे हे थेट बोल्टिंगशी संबंधित नसून अन्नद्रव्यांची कमतरता किंवा जैविक/ अजैविक ताणामुळे होते;</span></p>
+            <p><span class="mr"><strong>नत्र कमतरता:</strong> जुनी (खालची) पाने आधी पिवळी पडतात आणि संपूर्ण झाडाची वाढ खुंटते.</span></p>
+            <p><span class="mr"><strong>गंधक कमतरता:</strong> नवीन (वरची) पाने पिवळी पडतात (गंधक वनस्पतीमध्ये फिरत नाही).</span></p>
+            <p><span class="mr"><strong>पालाश कमतरता:</strong> पानांची टोके जळाल्यासारखी होऊन तपकिरी पडतात.</span></p>
+            <p><span class="mr"><strong>पाण्याचा किंवा क्षारांचा ताण:</strong> जमिनीची क्षारता जास्त असल्यास किंवा मुळांना प्राणवायू कमी पडल्यास (दलदल) पानांची टोके सुकतात.</span></p>
+            <p><span class="mr"><strong>बुरशीजन्य रोग (करपा):</strong> करपाच्या प्रादुर्भावामुळे पानांवर पांढरे/ करडे ठिपके पडतात आणि नंतर अल्टरनेरिया बुरशीमुळे पाने काळी/ करडी पडून सुकतात.</span></p>
+          </div>
+          <p class="note">
+            <span class="en">Any field work such as spraying, fertilizers, or irrigation should not be done without expert advice.</span>
+            <span class="mr">फवारणी, खते देणे किंवा सिंचन (पाणी देणे) यासारखी कोणतीही शेतातील कामे तज्ज्ञांच्या सल्ल्याशिवाय करू नयेत.</span>
+          </p>
         </div>
       </div>
     </section>
