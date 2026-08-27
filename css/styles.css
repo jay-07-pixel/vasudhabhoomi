@@ -412,6 +412,15 @@ ul { list-style: none; }
   font-style: italic;
   color: #e8d5a3;
   display: block;
+  max-width: 24ch;
+}
+
+.lang-mr .hero h1 em {
+  max-width: 30ch;
+}
+
+.hero h1 em .hero-tag {
+  display: block;
 }
 
 .hero-lead {
