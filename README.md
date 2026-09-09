@@ -3,7 +3,7 @@
 Frontend website for **Vasudhabhoomi Seeds LLP**, Rahuri. English + Marathi. Static only — no backend.
 
 **Tagline:** Sowing Trust, Growing Tomorrow.  
-**Product:** Bhimashakti onion seed (भीमाशक्ती कांदा वाण)
+**Product:** Rudramani onion seed (रुद्रमणी कांदा वाण)
 
 Live after Netlify deploy: add your URL here.
 
@@ -12,7 +12,7 @@ Live after Netlify deploy: add your URL here.
 ## What’s on the site
 
 - Home, about, vision & mission
-- Bhimashakti product details (yield, storage, season)
+- Rudramani product details (yield, storage, season)
 - Farm guide from the company PDF (climate, soil, fertilizer, water, harvest)
 - Field problems (bolting / yellow leaves)
 - Contact: director, GSTIN, address, call, WhatsApp, map
