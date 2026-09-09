@@ -487,6 +487,17 @@ ul { list-style: none; }
   margin-top: 22px;
 }
 
+.product .hero-actions {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.hero-actions .brand-note {
+  margin: 0;
+  letter-spacing: 0.12em;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
