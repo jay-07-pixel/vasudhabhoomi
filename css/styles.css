@@ -1170,11 +1170,6 @@ tr:last-child td { border-bottom: none; }
   text-decoration: underline;
 }
 
-.care-accent {
-  color: #e31b23;
-  font-weight: 600;
-}
-
 .dot {
   width: 36px;
   height: 36px;
