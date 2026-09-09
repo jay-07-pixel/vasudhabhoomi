@@ -320,6 +320,17 @@ ul { list-style: none; }
   padding: 24px 0 48px;
 }
 
+.guide-videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 24px 0 8px;
+}
+
+.guide-videos .video-card video {
+  max-height: min(42vh, 360px);
+}
+
 .video-showcase {
   display: flex;
   flex-direction: column;
@@ -1371,6 +1382,11 @@ tr:last-child td { border-bottom: none; }
     grid-template-rows: none;
     gap: 14px;
     margin-top: 16px;
+  }
+
+  .guide-videos {
+    grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .video-showcase {
