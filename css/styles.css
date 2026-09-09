@@ -1320,15 +1320,14 @@ tr:last-child td { border-bottom: none; }
 
 .gallery {
   display: grid;
-  grid-template-columns: 1.35fr 1fr 1fr;
-  grid-template-rows: 220px 220px;
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
   margin-top: 16px;
 }
 
 .gallery img {
   width: 100%;
-  height: 100%;
+  height: 240px;
   object-fit: cover;
   border-radius: 18px;
   transition: transform 0.5s ease, filter 0.4s ease;
@@ -1337,10 +1336,6 @@ tr:last-child td { border-bottom: none; }
 .gallery img:hover {
   transform: scale(1.03);
   filter: saturate(1.08);
-}
-
-.gallery img:first-child {
-  grid-row: span 2;
 }
 
 .why {
