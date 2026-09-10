@@ -339,6 +339,10 @@ ul { list-style: none; }
   max-width: 920px;
 }
 
+.video-card--pinned {
+  order: -1;
+}
+
 .video-card {
   border-radius: 20px;
   overflow: hidden;
