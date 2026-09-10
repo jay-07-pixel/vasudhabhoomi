@@ -354,11 +354,29 @@ ul { list-style: none; }
 .video-card video {
   width: 100%;
   display: block;
-  aspect-ratio: 16 / 9;
-  max-height: min(72vh, 520px);
   object-fit: contain;
+  object-position: center;
   background: #0a1a14;
   vertical-align: middle;
+}
+
+.video-card--landscape {
+  width: 100%;
+}
+
+.video-card--landscape video {
+  aspect-ratio: 16 / 9;
+  max-height: min(72vh, 520px);
+}
+
+.video-card--portrait {
+  width: min(100%, 420px);
+  margin-inline: auto;
+}
+
+.video-card--portrait video {
+  aspect-ratio: 9 / 16;
+  max-height: min(78vh, 720px);
 }
 
 .video-caption {
