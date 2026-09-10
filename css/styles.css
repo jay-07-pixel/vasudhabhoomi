@@ -322,20 +322,29 @@ ul { list-style: none; }
 
 .guide-videos {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(2, minmax(0, 380px));
+  justify-content: center;
+  gap: clamp(14px, 2.5vw, 24px);
   margin: 24px 0 8px;
 }
 
+.guide-videos .video-card {
+  width: 100%;
+  margin-inline: 0;
+}
+
 .guide-videos .video-card video {
-  max-height: min(42vh, 360px);
+  aspect-ratio: 9 / 16;
+  max-height: min(70vh, 640px);
 }
 
 .video-showcase {
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  margin-top: 28px;
+  align-items: center;
+  gap: clamp(16px, 2.5vw, 28px);
+  margin-top: clamp(16px, 2.5vw, 28px);
+  width: 100%;
   max-width: 920px;
 }
 
@@ -353,6 +362,7 @@ ul { list-style: none; }
 
 .video-card video {
   width: 100%;
+  height: auto;
   display: block;
   object-fit: contain;
   object-position: center;
@@ -362,21 +372,23 @@ ul { list-style: none; }
 
 .video-card--landscape {
   width: 100%;
+  max-width: 920px;
 }
 
 .video-card--landscape video {
   aspect-ratio: 16 / 9;
-  max-height: min(72vh, 520px);
+  max-height: min(68vh, 560px);
 }
 
 .video-card--portrait {
-  width: min(100%, 420px);
+  width: clamp(260px, 34vw, 400px);
+  max-width: 100%;
   margin-inline: auto;
 }
 
 .video-card--portrait video {
   aspect-ratio: 9 / 16;
-  max-height: min(78vh, 720px);
+  max-height: min(72vh, 680px);
 }
 
 .video-caption {
@@ -1432,7 +1444,9 @@ tr:last-child td { border-bottom: none; }
   }
 
   .guide-videos {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    max-width: min(100%, 420px);
+    margin-inline: auto;
     gap: 16px;
   }
 
@@ -1447,15 +1461,16 @@ tr:last-child td { border-bottom: none; }
   }
 
   .video-card--landscape video {
-    max-height: min(60vh, 420px);
+    max-height: min(58vh, 440px);
   }
 
   .video-card--portrait {
-    width: min(100%, 360px);
+    width: min(100%, 78vw);
   }
 
-  .video-card--portrait video {
-    max-height: min(70vh, 560px);
+  .video-card--portrait video,
+  .guide-videos .video-card video {
+    max-height: min(72vh, 620px);
   }
 
   .gallery img {
@@ -1713,18 +1728,28 @@ tr:last-child td { border-bottom: none; }
   .video-showcase {
     gap: 16px;
     margin-top: 16px;
+    max-width: 100%;
+  }
+
+  .video-card--landscape {
+    width: 100%;
   }
 
   .video-card--landscape video {
-    max-height: min(50vh, 360px);
+    max-height: min(52dvh, 380px);
   }
 
   .video-card--portrait {
-    width: min(100%, 320px);
+    width: 100%;
   }
 
-  .video-card--portrait video {
-    max-height: min(68vh, 520px);
+  .video-card--portrait video,
+  .guide-videos .video-card video {
+    max-height: min(78dvh, 680px);
+  }
+
+  .guide-videos {
+    max-width: 100%;
   }
 
   .gallery img,
